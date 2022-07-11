@@ -8,4 +8,4 @@ list: linkedlist.o main.c
 linkedlist.o: linkedlist.h
 
 clean:
-	rm -rf $(EXECUTABLE)
+	rm -rf $(EXECUTABLE) *.o
